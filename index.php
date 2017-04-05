@@ -2,6 +2,7 @@
 	//This file is require to allow PHP to parse HTML.
 	include('simple_html_dom.php');
 	
+	//$url = 'http://fontawesome.io/icons/';
 	$url = 'website.html';
 
 	$content = file_get_html($url);
